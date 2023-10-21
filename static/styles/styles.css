@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(210, 36%, 96%);
+}
+#main-title {
+  margin: 100px auto 60px auto;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  color: darkgoldenrod;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.questions {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  border-radius: 10px;
+  margin-bottom: 32px;
+  background-color: white;
+  box-shadow: -1px 2px 11px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 2px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 2px 11px 0px rgba(0, 0, 0, 0.75);
+}
+h4,
+span {
+  margin: 16px;
+}
+button {
+  align-self: flex-start;
+  background-color: transparent;
+  border: none;
+}
+.material-icons {
+  color: darkgoldenrod;
+  transition: transform 0.5s ease-in;
+  cursor: pointer;
+}
+hr {
+  margin: 20px auto;
+  width: 120%;
+}
+.icons-animation {
+  transform: rotate(360deg);
+}
+.details {
+  display: none;
+}
+/* .details {
+  display: contents;
+} */
+.minus {
+  display: none;
+}
+.minus-show {
+  display: block;
+}
+.plus-hide {
+  display: none;
+}
